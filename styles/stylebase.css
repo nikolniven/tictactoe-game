@@ -1,0 +1,142 @@
+body {
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+    color: rgb(41, 39, 39);
+    background-color: rgb(247, 239, 247);
+    box-sizing: border-box;
+}
+
+#main-header {
+    background-color: rgb(143, 0, 255);
+    color: white;
+    padding: 2rem 5%;
+    text-align: center;
+}
+
+.btn {
+    font: inherit;
+    /*instad of using browser deafult appliead for buttons*/
+    padding: .5rem 1.5rem;
+    /*↕⇿*/
+    background-color: rgb(143, 0, 255);
+    border: 1px solid rgb(143, 0, 255);
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+
+
+}
+
+.btn-alt {
+    background-color: transparent;
+    border-color: transparent;
+    color: rgb(143, 0, 255);
+}
+
+.btn:hover {
+    background-color: rgb(86, 2, 142);
+    border-color: rgb(74, 1, 122);
+}
+
+.btn-alt:hover {
+    background-color: rgb(211, 170, 238);
+    border-color: transparent;
+}
+
+
+/* 
+
+h1 {
+    margin-top: 0;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+
+li {
+    white-space: nowrap;
+    padding: .2em;
+}
+
+
+section {
+    text-align: center;
+    padding: 5em, 1em, 0em, 5em;
+}
+
+.playerBoxesContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.playerBoxesContainer div {
+    margin: 4em .5em 1em .8em;
+    padding: 1em 5em;
+    background-color: rgb(230, 172, 230);
+    border-radius: 6px;
+}
+
+.playersNum {
+    font-size: large;
+    font-weight: 600;
+}
+
+.playersName {
+    font-size: larger;
+    font-weight: 900;
+    color: rgb(69, 15, 119);
+}
+
+.clickableEdit {
+    color: rgb(69, 15, 119);
+    ;
+    font-weight: 500;
+    margin-top: .5em;
+}
+
+.symbol {
+    font-weight: 900;
+    font-size: 2em;
+}
+
+
+.btn-common {
+    background-color: rgb(143, 54, 175);
+    color: white;
+    padding: 0.5em 1.6em 0.5em 1.6em;
+    border-radius: 5px;
+    border: 1px solid rgb(102, 9, 188);
+    box-shadow: 0 3px 14px 0 rgba(0, 0, 0, 0.24),
+        0 17px 50px 0 rgba(0, 0, 0, 0.19);
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.btn-common:hover {
+
+    background-color: rgb(112, 39, 138);
+    cursor: pointer;
+}
+
+
+
+/* @media (max-width: 768px) {
+    overflow: hidden;
+} 
+.subtlebutton {
+    display: inline-block;
+    width: 80%;
+    padding: .5em .3em .5em .3em;
+
+    border-radius: 4px;
+}
+
+.subtlebutton:hover {
+    background-color: rgb(229, 206, 229);
+    cursor: pointer;
+} */
